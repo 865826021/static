@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--在添加新闻时，就同时生成一个对应的新闻页面-->
+<form action="newsAction.php" method="post">
+    <table>
+        <tr>
+            <td>新闻标题</td>
+            <td><input type="text" name="title"></td>
+        </tr>
+        <tr>
+            <td>新闻内容</td>
+            <td><textarea name="content" id="" cols="50" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="添加"></td>
+            <td><input type="reset" value="重新填写"></td>
+        </tr>
+        <input type="hidden" name="oper" value="add">
+    </table>
+</form>
+</body>
+</html>

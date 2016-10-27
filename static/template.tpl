@@ -1,0 +1,10 @@
+<html>
+<head>
+    <tltle>%title%</tltle>
+</head>
+<body>
+<h1>%title%</h1>
+<hr>
+<pre>%content%</pre>
+</body>
+</html>
